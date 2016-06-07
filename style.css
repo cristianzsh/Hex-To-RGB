@@ -1,0 +1,35 @@
+body {
+	font-family: "Calibri", sans-serif;
+	background: #EBEBEB;
+	-webkit-transition: background-color, 0.7s ease-in-out;
+	-moz-transition: background-color, 0.7s ease-in-out;
+	-ms-transition: background-color, 0.7s ease-in-out;
+	-o-transition: background-color, 0.7s ease-in-out;
+	transition: background-color, 0.7s ease-in-out;
+}
+
+h1 {
+	font-size: 64px;
+	text-align: center;
+}
+
+#conv {
+	font-weight: bold;
+	font-size: 20px;
+	width: 235px;
+	height: 30px;
+	transition: opacity 550ms ease-in-out;
+	opacity: 0.4;
+}
+
+#conv:hover {
+	opacity: 1.0;
+}
+
+.input-container {
+	margin: 0 auto;
+}
+
+a {
+	color: inherit;
+}
